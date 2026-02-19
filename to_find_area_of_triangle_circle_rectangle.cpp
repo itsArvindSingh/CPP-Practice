@@ -5,7 +5,7 @@ float area_circle(float r){
     return Pi*r*r;
 }
 float area_rectangle(float w, float l){
-    return w*h;
+    return w*l;
 }
 float area_triangle(float b, float h){
     return 0.5*b*h;
@@ -18,8 +18,8 @@ int main(){
     cout<<"Enter the height and base of the triangle : "<<endl;
     cin>>height>>base;
     cout<<"Area of the triangle is "<<area_triangle(height,base)<<endl;
-    cout<<"Enter the width and height of the rectangle : "<<endl;
-    cin>>width>>height;
-    cout<<"Area of the rectangle is "<<area_rectangle<<endl;
+    cout<<"Enter the width and length of the rectangle : "<<endl;
+    cin>>width>>length;
+    cout<<"Area of the rectangle is "<<area_rectangle(width,length)<<endl;
     return 0;
 }
