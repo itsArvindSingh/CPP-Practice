@@ -17,5 +17,5 @@ int main(){
     else {
         cout<<"Not a Pailndorme"<<endl;
     }
-    return 0;
+    return 0 ;
 }
