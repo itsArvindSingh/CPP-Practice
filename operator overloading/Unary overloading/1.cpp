@@ -11,8 +11,8 @@ class abc{
         cout<<"m : "<<m<<endl<<"n : "<<n<<endl;
     }
     void operator++(int){
-        ++m;
-        ++n;
+        m++;
+        n++;
     }
 };
 int main(){
