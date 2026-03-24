@@ -38,11 +38,6 @@ This repository contains my **C++ practice programs**, built while learning core
 
 ---
 
-## 🧪 Status  
-This is an actively updated learning repository. Expect improvements, new topics, and occasional mistakes along the way.
-
----
-
 ## 🤝 Contributions  
 This is a personal learning repo, but suggestions and improvements are welcome.
 
