@@ -23,17 +23,6 @@ This repository contains my **C++ practice programs**, built while learning core
 
 ---
 
-## 📁 Structure  
-CPP-Practice/  
-│── basics/  
-│── control-statements/  
-│── functions/  
-│── arrays/  
-│── oop/  
-│── practice/  
-
----
-
 ## 🎯 Purpose  
 - Strengthen programming fundamentals  
 - Improve logical thinking and problem-solving  
@@ -45,9 +34,7 @@ CPP-Practice/
 - ✔️ Basics  
 - ✔️ Control Statements  
 - ✔️ Functions  
-- ⏳ OOP (In Progress)  
-- ⏳ STL  
-- ⏳ DSA  
+- ⏳ OOP (In Progress)   
 
 ---
 
