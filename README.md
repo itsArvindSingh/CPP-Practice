@@ -1,7 +1,4 @@
 # ⚡ C++ Practice Repository  
-
-> *Learning C++ one bug at a time.*
-
 ---
 
 ## 📖 Overview  
