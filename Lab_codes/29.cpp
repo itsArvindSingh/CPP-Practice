@@ -33,7 +33,6 @@ class display_details: public Patient{
         cout<<"Name of the disease is "<<disease<<endl;
         cout<<"Patient id is "<<patient_id<<endl;
     }
-
 };
 int main(){
     display_details p;
