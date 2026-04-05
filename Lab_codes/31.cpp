@@ -1,27 +1,24 @@
 #include<iostream>
 using namespace std;
-class class_name {
-    private :
-    int num;
+class First {
     public:
-    void get_number(){
-        cout<<"Enter Number: ";
-        cin>>num;
-    }
-    void odd_display(){
-        int sum=0;
-        cout<<"n term of odd natural number is "<<endl;
-        for (int i=1; i<=num ; i+=2){
-            sum+=i;
-            cout<<i<<"  ";
-        }
-        cout<<endl<<"Sum is "<<sum<<endl;
+    virtual void display(){
+        cout<<"print the First class "<<endl;
     }
 };
-
+class second:public First{
+    public :
+    void display()  {
+        cout<<"print the second class "<<endl;
+    }
+};
 int main(){
-    class_name o;
-    o.get_number();
-    o.odd_display();
+    First *ptr;
+    second p;
+    ptr=&p;
+    ptr->display();
+    First c;
+    ptr=&c;
+    ptr->display();
     return 0;
 }
